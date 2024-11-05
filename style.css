@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body
+{
+background: linear-gradient(180deg,rgb(77, 197, 199),rgb(210, 76, 181));
+
+height: auto;
+width: 100%;
+background-position: center;
+background-size: cover;
+border: 2px solid #000;
+border-radius: 10px; 
+box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+padding: 0;
+margin: 0;
+}
+
+.background
+{
+    position: relative;
+}
+
+img
+{
+    width: 98%;
+    border: 2px solid #000; 
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+    margin-left: 11px;
+    margin-top: 11px;
+    border: none;
+
+}
+
+#header
+{
+    position: absolute;
+    top: 10px;
+    margin-left: 30rem;
+    padding: 20px;
+    
+}
+#header ul li
+{
+    display: inline;
+    margin-right: 60px;
+}
+#header ul li a
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    font-size: x-large;
+    text-decoration: none;
+    transition: background-color 0.25s;
+    padding: 20px;
+}
+a:hover
+{
+    background-color: rgb(24, 15, 2);
+
+}
+
+.letter
+{
+    position: absolute;
+    top: 130px;
+    left: 490px;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;    
+    padding-top: 30px;
+}
+.letter1
+{
+    position: absolute;
+    top: 190px;
+    left: 470px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    padding: -6%;
+}
+.letter2
+{
+    top: 470px;
+    left: 200px;
+    position:absolute;
+    font-size: 27px;
+    display: flex;
+    font-family: "poppins";
+
+
+}
+
+.my-image
+{
+    width: 420px;
+    height: 390px;
+    border: 2px solid #000; 
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+    margin-left: 60px;
+    margin-top: 25px;
+    display: inline-flex;
+    border: none;
+
+}
+.my-image:hover
+{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+
+.my-image1
+{
+    width: 420px;
+    height: 390px;
+    border: 2px solid #000; 
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+    margin-left: 60px;
+    margin-top: 25px;
+    display: inline-flex;
+    border: none;
+}
+.my-image1:hover
+{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+#w
+{
+    text-align: center;
+    font-size: 55px;
+}
+#w:hover
+{
+    transform: none;
+    transition-duration: 2s;
+}
+.About
+{
+    background-color: yellow;
+    font-size: 30px;
+    padding: 15px;
+    font-family: "poppins";
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.About p{
+    padding-left: 30px;
+}
+
+#wo
+{
+    text-align: center;
+    font-size: 55px;
+}
+#wo1
+{
+    margin-left: 130px;
+    display: inline;
+    font-size: 30px;
+}
+#wo2
+{
+    margin-left: 250px;
+    display: inline;
+    font-size: 30px;
+}
+#wo3
+{
+    margin-left: 230px;
+    display: inline;
+    font-size: 30px;
+}
+#wo4
+{
+    margin-left: 230px;
+    display: inline;
+    font-size: 30px;
+}
+#wo5
+{
+    margin-left: 380px;
+    display: inline;
+    font-size: 30px;
+}
+#wo6
+{
+    margin-left: 370px;
+    display: inline;
+    font-size: 30px;
+}
+#wo7
+{
+    margin-left: 180px;
+    display: inline;
+    font-size: 30px;
+}
+#wo8
+{
+    margin-left: 320px;
+    display: inline;
+    font-size: 30px;
+}
+#wo9
+{
+    margin-left: 350px;
+    display: inline;
+    font-size: 30px;
+}
+.last
+{
+    font-size: 45px;
+    text-align: left;
+    color: blueviolet;
+    background-color: yellow;
+    padding: 10px;
+    margin-left: 1px;
+}
+.thank
+{
+    font-size: 60px;
+    text-align: center;
+    color: rgb(255, 41, 41);
+}
+#w1
+{
+    text-align: center;
+    font-size: 55px;
+}
+
+.book
+{
+    padding: 0px;
+    border: #000;
+    background-position: center;
+    background-color: white;
+    max-width: 600px;
+    margin: 120px auto;
+    border-radius: 40px;
+    
+}
+
+#hh
+{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 30px;
+}
+#hh1
+{
+    text-align: center;
+    font-size: 30px;
+}
+#hh2
+{
+    text-align: center;
+    font-size: 30px;
+}
+#hh3
+{
+    text-align: center;
+    font-size: 30px;
+}
+#hh4
+{
+    text-align: center;
+    font-size: 30px;
+}
+#hh5
+{
+    text-align: center;
+    font-size: 30px;
+    
+}
+#hh6
+{
+    text-align: center;
+    font-size: 30px;
+}
+#hh7
+{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.back
+{
+    background-color: #000;
+    padding: 20px;
+}
+
